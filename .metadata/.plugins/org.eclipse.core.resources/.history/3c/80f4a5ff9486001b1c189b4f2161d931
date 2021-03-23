@@ -1,0 +1,48 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class ExercicioRepeticao2 {
+	
+	public static void main(String[] args) {
+		
+		/* Programa que solicite o nome e idade das pessoas
+		 * A aplicação continuará perguntando nome e idade enquanto o usuário afirmar que deseja continuar
+		 * Ao terminar a aplicação deverá exibir:
+		 *  - Qtd de pessoas >= 18 anos
+		 *  - Média de idades registradas
+		 *  - Pessoa mais velha: nome e idade
+		 *  - pessoa mais jovem: nome e idade
+		 */
+		
+		//Missão2
+		
+		int jog2 = 0;
+		int cont=0;			
+		String continua="";
+		
+		do {
+			String nome = JOptionPane.showInputDialog("Digite seu nome: ");
+			int idade = Integer.parseInt(JOptionPane.showInputDialog("Digite sua idade: "));
+			continua=JOptionPane.showInputDialog("Digite S para continuar: ").toUpperCase();
+		}while(continua.equals("S"));
+		
+
+			 
+			 
+			 
+		 
+			
+		    
+		  
+	
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

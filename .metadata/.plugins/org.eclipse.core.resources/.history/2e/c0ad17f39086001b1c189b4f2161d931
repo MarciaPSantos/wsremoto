@@ -1,0 +1,46 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class ExercicioRepeticao {
+	
+	public static void main(String[] args) {
+		
+		/* Jogador 1 irá digitar o número
+		 * Jogador 2 ira tentar adivinhar o numero
+		 * 
+		 * Missão 1:
+		 * - dê dicas ao jogador 2, se ele está chutando alto ou baixo
+		 * 
+		 * Missão2:
+		 * - acrescentar na msgm de Parabéns quantas tentativas foram utilizadas para acertar
+		 * 
+		 * Dica: utilizar variável para contar 
+		 */
+		
+		//Missão1
+		
+		int jog1 = Integer.parseInt(JOptionPane.showInputDialog("Jogador 1, digite um número: "));
+		int jog2 = 0;
+		
+		do {
+			jog2 = Integer.parseInt(JOptionPane.showInputDialog("Acerte o número do jogador 1: "));
+		} while (jog2 != jog1); {
+			if (jog1>jog2) {
+				System.out.println("Você está chutando um valor alto!");
+			} else
+				System.out.println("Você está chutando um valor baixo!");
+		}
+		
+		System.out.println("Parabéns! Você acertou!!");
+	
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

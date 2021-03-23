@@ -1,0 +1,35 @@
+package br.com.caicai.modelo;
+
+public class Elevador {
+
+	private String nome;
+	private byte maximoPessoas;
+	private byte andarMaximo;
+	private byte andarMinimo;
+	private byte andarAtual;
+	private byte qtdePessoas;
+	
+	public void inicializar (String pNome, byte pMaxPessoas, byte pAndarMax, byte pAndarMin) {
+		nome=pNome;
+		maximoPessoas=pMaxPessoas;
+		andarMaximo=pAndarMax;
+		andarMinimo=pAndarMin;
+	}
+	
+	public String toString() {
+		return
+				"Nome..........: " + nome + "\n" +
+				"Máximo pessoas: " + maximoPessoas + "\n" +
+				"Andar máximo..: " + andarMaximo + "\n" +
+				"Andar mínimo..: " + andarMinimo;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

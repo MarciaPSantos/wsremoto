@@ -1,0 +1,28 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class Lista2Exercicio4 {
+
+	public static void main(String[] args) {
+		
+		int valor1 = Integer.parseInt(JOptionPane.showInputDialog("Valor 1: "));
+		int valor2 = Integer.parseInt(JOptionPane.showInputDialog("Valor 1: "));
+		int valor3 = Integer.parseInt(JOptionPane.showInputDialog("Valor 1: "));
+		
+		if (valor1==valor2 || valor1==valor3 || valor2==valor3) {
+			System.out.println("Existem números iguais!");
+		}else {
+			if (valor1>valor2 && valor1>valor3) {
+				System.out.println(valor1);
+			} else if (valor2>valor1 && valor2>valor3) {
+				System.out.println(valor2);
+			} else
+				System.out.println(valor3);
+			}
+		
+		
+		
+		
+	}
+}

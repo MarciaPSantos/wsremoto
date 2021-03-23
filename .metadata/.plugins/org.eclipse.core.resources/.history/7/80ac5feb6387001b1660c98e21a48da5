@@ -1,0 +1,18 @@
+package br.com.caicai.teste;
+
+import javax.swing.JOptionPane;
+
+import br.com.caicai.modelo.Elevador;
+
+public class TesteElevador {
+
+	public static void main(String[] args) {
+		
+		Elevador elevador = new Elevador();
+		
+		elevador.toString();
+		
+	
+		
+	}
+}

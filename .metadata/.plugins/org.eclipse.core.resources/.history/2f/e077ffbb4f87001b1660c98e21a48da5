@@ -1,0 +1,34 @@
+package br.com.rubinhocar.teste;
+
+import br.com.rubinhocar.modelo.Veiculo;
+
+public class TesteVeiculo {
+
+	//precisa ter o "main" pq esse aqui irei executar! o outro é apenas uma arquitetura
+	public static void main(String[] args) {
+		
+		//Instanciando um objeto
+		//importar = control+shift+O -> apareceu a linha 3
+		
+	//	Veiculo carro = new Veiculo();
+	//	carro.montadora = "fiat"; //da erro pq esta tentando acessar a classe anterior que esta privado
+		
+		Veiculo carro = new Veiculo();
+		carro.preencherMontadora("fiat");
+		System.out.println(carro.retornarMontadora());
+		
+	//	Veiculo carro = new Veiculo();
+		carro.preencherModelo("gol");
+		System.out.println(carro.retornarModelo());
+		
+		
+		
+		 
+		
+		
+		
+		
+		
+		
+	}
+}

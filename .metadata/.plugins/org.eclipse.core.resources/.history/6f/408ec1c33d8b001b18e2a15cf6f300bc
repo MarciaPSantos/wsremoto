@@ -1,0 +1,25 @@
+package br.com.lojaxpto.implementacao;
+
+import br.com.lojaxpto.modelo.Cliente;
+
+public class TesteCliente {
+
+public static void main(String[] args) {
+	
+	//criei pela sub e instanciei pela sub
+	//PessoaFisica pf = new PessoaFisica();
+	
+	//criei pela super e instanciei pela sub
+	//Cliente cli = new PessoaFisica();
+	
+	Cliente cliente = new Clinte() {
+	
+		if (JOptionPane.showInputDialog("Digite <F> para fisica ou qqer coisa para juridica").toUpperCase().))
+		
+	}
+	
+	
+}
+
+
+}

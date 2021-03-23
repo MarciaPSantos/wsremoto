@@ -1,0 +1,32 @@
+package br.com.rubinhocar.modelo;
+
+public class Veiculo {
+
+	/* o sinal de "-" na frente do atributo no Astah, signifca que ele é privado de determinada classe,
+	 * fora da classe ninguém deve ter acesso.
+	 */
+	
+	private String montadora;
+	private	float valor;
+	private short velocidadeAtual;
+	private boolean status;
+	private short velocidadeMaxima;
+	private String modelo;
+	
+	// sintaxe dos métodos: 
+	// <modificador> <tipo de retorno> <nome do metodo>(<tipo param> <nome param>
+	
+	public void preencherMontadora(String param) {
+		montadora = param;
+	}
+	
+	public String retornarMontadora() {
+		return montadora;
+	}
+	
+	
+	
+	
+	
+	
+}

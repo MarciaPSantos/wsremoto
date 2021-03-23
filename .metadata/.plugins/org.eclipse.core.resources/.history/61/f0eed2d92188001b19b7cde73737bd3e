@@ -1,0 +1,19 @@
+package br.com.gama.implementacao;
+
+import br.com.gama.modelo.Endereco;
+
+public class TesteTurma {
+
+	public static void main(String[] args) {
+		
+		Endereco endereco = new Endereco();
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+}

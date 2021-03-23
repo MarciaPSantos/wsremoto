@@ -1,0 +1,35 @@
+package br.com.gama.modelo;
+
+
+/* Design Pattern: conjunto com as melhores práticas para POO.
+ * 	-DTO (Data Transfer Object): é um pattern, que descreve as melhores práticas para representar uma classe de um diagrama
+ * em uma programação
+ * Regras:
+ * 	- TODOS os atributos devem ser privados
+ * 	- CADA atributo, deve possuir INDIVIDUALMENTE um método de input e outro para output
+ * 
+ * 
+ */  
+
+
+public class Aluno {
+
+
+	private String nome;
+	private String matricula;
+	private String email;
+	private String fone;
+	
+	
+	public void preencherNome (String nome) {
+		this.nome = nome;
+	}
+	
+	public String retornarNome() {
+		return nome;
+	}
+	
+	
+	
+	
+}
